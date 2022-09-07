@@ -3,6 +3,9 @@
 
 * {
   transition: 0.5s;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 h1 {
   font-family: "Titan One", cursive;
@@ -19,7 +22,7 @@ h1 {
   padding-top: 10rem;
 }
 .jadwal {
-  margin-top: -6rem;
+  margin-top: -7rem;
 }
 .bayangan {
   -webkit-box-reflect: below 1px
@@ -27,7 +30,6 @@ h1 {
 }
 .box-hari:hover {
   transform: translateY(-10px);
-  cursor: default;
 }
 .today {
   background-color: lightblue;
@@ -53,6 +55,6 @@ h1 {
   }
 
   .jadwal {
-    margin-top: -15rem;
+    margin-top: -16rem;
   }
 }
